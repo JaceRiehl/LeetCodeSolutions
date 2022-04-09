@@ -1,3 +1,9 @@
+""" LeetCode 2.Add Two Numbers 
+ Does addition how you would in elementary school. Ones place first and so on. Thats why the reversed linked list works for us.
+ Edge Cases:
+    Have to watch out for carry
+    Carry on the final place
+"""
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
