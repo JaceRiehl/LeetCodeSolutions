@@ -1,3 +1,9 @@
+"""
+Leetcode problem #1 Two Sum
+Uses a dictionary to keep track of the numbers weve gone over and if the target - the current number is in the dictionary we have a match
+"""
+
+
 # Solution 1 : 2 pointers - not a great solution because the array doesnt come in sorted
 # def twoSum(nums, target):
 #     nums2 = nums.copy()
