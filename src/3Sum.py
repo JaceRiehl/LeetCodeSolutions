@@ -1,3 +1,9 @@
+"""
+Leetcode 15 3Sum
+Uses a similar strategy to twosum2. It adds another loop to go through the first number and then uses twosum2 strat to get the other two numbers.
+
+"""
+
 def threeSum(nums):
     ret = []
     nums.sort()
