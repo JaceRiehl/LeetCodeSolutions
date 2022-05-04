@@ -1,3 +1,13 @@
+"""
+Leetcode 226 Invert Binary Tree
+
+Technique:
+- Recurrsive
+- Traverse both sides of the tree recursively and swap the left and right children.
+
+"""
+ 
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

@@ -1,3 +1,12 @@
+"""
+Leetcode 108 Convert Sorted Array to Binary Tree
+
+Technique:
+- Recurrsive
+- set the middle point of the array as the node and recursively set the left side as the left side of the array before the middle and the right side as the opposite.
+
+"""
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
