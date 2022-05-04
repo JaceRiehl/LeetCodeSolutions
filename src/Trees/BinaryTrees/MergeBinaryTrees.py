@@ -1,3 +1,11 @@
+"""
+Leetcode 617 Merge two Binary Trees
+
+Technique:
+- Recurrsive
+- Creates a new tree that adds the two values at the current node in the trees (else 0 if no node or None if theres no nodes).
+
+"""
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
