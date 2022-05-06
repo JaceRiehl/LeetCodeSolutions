@@ -1,3 +1,11 @@
+"""
+Leetcode 1047 RemoveAdjacentDuplicates
+
+Technique:
+- Use a stack to keep track of the most recent character that hasnt been deleted and then create a new string with the leftover characters.
+
+"""
+
 def removeDuplicates(s: str) -> str:
     stack = []
     res = ""
