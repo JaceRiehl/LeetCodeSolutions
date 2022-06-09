@@ -30,3 +30,4 @@ class Solution2:
             current = stack.pop()
             res.append(current.val)
             current = current.right
+        return res
